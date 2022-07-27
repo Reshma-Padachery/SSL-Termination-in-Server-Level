@@ -4,10 +4,10 @@ Steps to be followed:
 
 1)Check if apache httpd is installed in EC2 machine
 
-2)Check for mod_ssl in cd /etc/httpd/modules,if not install using
+2)Check for mod_ssl in cd /etc/httpd/modules,if not install using  ---3rd part module to integrate apache httpd with ssl
   yum install mod_ssl -y
   
-3)check for openssl if installed,if not
+3)check for openssl if installed,if not  ---package to create SSL certificate
   yum install openssl -y
   
  4)check if ssl.conf is created under cd /etc/httpd/conf.d after installation of mod_ssl
